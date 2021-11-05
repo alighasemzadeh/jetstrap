@@ -4,9 +4,9 @@
             <x-jet-authentication-card-logo />
         </x-slot>
 
-        <x-jet-validation-errors class="mb-3" />
 
         <div class="card-body">
+            <x-jet-validation-errors class="mb-3" />
             <form method="POST" action="{{ route('register') }}">
                 @csrf
 
