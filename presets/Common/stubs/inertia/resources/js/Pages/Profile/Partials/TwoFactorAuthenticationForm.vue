@@ -42,7 +42,7 @@
             </p>
           </div>
 
-          <div class="w-75 bg-light rounded p-3">
+          <div class="w-75 rounded p-3">
             <div v-for="code in recoveryCodes">
               {{ code }}
             </div>

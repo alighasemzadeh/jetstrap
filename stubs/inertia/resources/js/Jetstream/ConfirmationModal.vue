@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="modal-footer bg-light">
+      <div class="modal-footer">
         <slot name="footer">
         </slot>
       </div>

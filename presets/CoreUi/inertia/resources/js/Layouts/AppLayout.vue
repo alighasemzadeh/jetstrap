@@ -50,7 +50,7 @@
             <template #content>
               <template v-if="$page.props.jetstream.hasTeamFeatures">
 
-                <div class="dropdown-header bg-light py-2">
+                <div class="dropdown-header py-2">
                   <strong>Manage Team</strong>
                 </div>
 
@@ -64,7 +64,7 @@
                 </jet-dropdown-link>
 
                 <!-- Team Switcher -->
-                <div class="dropdown-header bg-light py-2">
+                <div class="dropdown-header py-2">
                   <strong>Switch Teams</strong>
                 </div>
 
@@ -99,7 +99,7 @@
 
             <template #content>
               <!-- Account Management -->
-              <div class="dropdown-header bg-light py-2">
+              <div class="dropdown-header py-2">
                 <strong>Manage Account</strong>
               </div>
 
@@ -174,7 +174,7 @@ export default defineComponent({
     JetDropdownLink,
     JetNavLink,
   },
-  
+
   props: {
     title: String,
   },

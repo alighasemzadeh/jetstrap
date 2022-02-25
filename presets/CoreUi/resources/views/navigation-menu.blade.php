@@ -59,7 +59,7 @@
             </x-slot>
 
             <x-slot name="content">
-                <div class="dropdown-header bg-light py-2">
+                <div class="dropdown-header py-2">
                     <strong>{{ __('Manage Account') }}</strong>
                 </div>
 
